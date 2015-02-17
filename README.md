@@ -1,11 +1,12 @@
 # RPi-Proto-HAT
-Prototyping Area HAT (Hardware Attached on Top) for Raspberry Pi Model A+ and B+.
-
-Shop: 
-[RPi-Proto-HAT](http://www.watterott.com/en/RPi-Proto-HAT) ([Amazon](http://www.amazon.de/RPi-Proto-HAT/dp/B00NBKXQPW)), 
-[RPi-Proto-HAT with ID-EEPROM](http://www.watterott.com/en/RPi-Proto-HAT-ID-EEPROM)
+Prototyping Area HAT (Hardware Attached on Top) for Raspberry Pi.
 
 [![RPi-Proto-HAT](https://raw.github.com/watterott/RPi-Proto-HAT/master/pcb/RPi-Proto-HAT_v10.jpg)](http://www.watterott.com/en/RPi-Proto-HAT)
+
+
+## Shop:
+* [RPi-Proto-HAT](http://www.watterott.com/en/RPi-Proto-HAT) ([Amazon](http://www.amazon.de/RPi-Proto-HAT/dp/B00NBKXQPW))
+* [RPi-Proto-HAT with ID-EEPROM](http://www.watterott.com/en/RPi-Proto-HAT-ID-EEPROM)
 
 
 ## Features
@@ -14,9 +15,6 @@ Shop:
 * [Raspberry Pi HAT](https://github.com/raspberrypi/hats) compatible
 
 
-## Hardware
+## Hardware and Software
 * [Schematics + Layout](https://github.com/watterott/RPi-Proto-HAT/tree/master/pcb)
-
-
-## Software
-* [Flash/Update EEPROM](https://github.com/watterott/RPi-Proto-HAT/blob/master/docu/EEPROM.md)
+* [How to flash/update EEPROM](https://github.com/watterott/RPi-Proto-HAT/blob/master/docu/EEPROM.md)
