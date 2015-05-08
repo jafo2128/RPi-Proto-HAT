@@ -21,4 +21,4 @@ Before the update the **WP** jumper next to the EEPROM has to be closed.
     ```
     $ sudo ./eepflash.sh -w -t=24c32 -f=rpi-proto-hat.eep
     ```
-    Note: For a Device Tree Kernel add to ```/boot/config.txt``` the following line before flashing: ```dtparam=i2c0``` (before any dtoverlay statement).
+    Note: For a Device Tree Kernel add to ```/boot/config.txt``` the following line before flashing: ```dtparam=i2c0=on``` (before any dtoverlay statement).
