@@ -1,11 +1,11 @@
 # How to flash/update the ID EEPROM?
 
-The EEPROM on the HAT for Raspberry Pi Model B+ can be updated as follows.
+The EEPROM on the HAT can be updated as follows.
 Before the update the **WP** jumper next to the EEPROM has to be closed.
 
 * Install [EEPROM utils](https://github.com/raspberrypi/hats/tree/master/eepromutils):
     ```
-    $ git clone https://github.com/raspberrypi/hats
+    $ git clone --depth=1 https://github.com/raspberrypi/hats
     $ cd hats/eepromutils
     $ make
     $ chmod +x eepflash.sh
